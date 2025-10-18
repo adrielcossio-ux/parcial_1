@@ -1,0 +1,4 @@
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_adapter/custom_interface:msg/Num.idl
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_adapter/custom_interface:msg/Sphere.idl
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/AddThreeInts.idl
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/GetPosition.idl

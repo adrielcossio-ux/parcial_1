@@ -1,0 +1,453 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78ff0b654ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ff0b6542b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ff0b6542b0>>)
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cossio/ejer1_ws'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/cpp_examples) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/cpp_examples' with type 'ros.ament_cmake' and name 'cpp_examples'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/custom_interface) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/py_examples) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/py_examples' with type 'ros.ament_python' and name 'py_examples'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/robot_description) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/test_move) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/test_move' with type 'ros.ament_cmake' and name 'test_move'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tutorials-main/visual_pubsub) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tutorials-main/visual_pubsub' with type 'ros.ament_python' and name 'visual_pubsub'
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/cossio/ejer1_ws/install
+[0.194s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 424 installed packages in /opt/ros/humble
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/cpp_examples', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/custom_interface', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/py_examples', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/robot_description', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'test_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'test_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/test_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/test_move', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'visual_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'visual_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cossio/ejer1_ws/build/visual_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cossio/ejer1_ws/install/visual_pubsub', 'merge_install': False, 'path': '/home/cossio/ejer1_ws/src/ros2_tutorials-main/visual_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/cpp_examples' with build type 'ament_cmake'
+[0.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/cpp_examples'
+[0.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples' with build type 'ament_python'
+[0.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_examples', 'ament_prefix_path')
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/ament_prefix_path.ps1'
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/ament_prefix_path.sh'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/robot_description' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/robot_description'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/visual_pubsub' with build type 'ament_python'
+[0.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'ament_prefix_path')
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/cpp_examples -- -j16 -l16
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/custom_interface -- -j16 -l16
+[0.449s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/robot_description -- -j16 -l16
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[0.636s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/visual_pubsub'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/cpp_examples -- -j16 -l16
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/cpp_examples
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/robot_description -- -j16 -l16
+[0.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/robot_description
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/custom_interface -- -j16 -l16
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/custom_interface
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move
+[0.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_examples)
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/cpp_examples
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples' for CMake module files
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples' for CMake config files
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_examples', 'cmake_prefix_path')
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.sh'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/bin'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib/pkgconfig/cpp_examples.pc'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib/python3.10/site-packages'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/bin'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.sh'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.bash'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.zsh'
+[0.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/cpp_examples/share/colcon-core/packages/cpp_examples)
+[0.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_examples)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples' for CMake module files
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples' for CMake config files
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_examples', 'cmake_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.dsv'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/hook/cmake_prefix_path.sh'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/bin'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib/pkgconfig/cpp_examples.pc'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/lib/python3.10/site-packages'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/cpp_examples/bin'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.ps1'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.sh'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.bash'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.zsh'
+[0.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/cpp_examples/share/colcon-core/packages/cpp_examples)
+[0.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_move)
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move' for CMake module files
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_move', 'cmake_prefix_path')
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.sh'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/bin'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib/pkgconfig/test_move.pc'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib/python3.10/site-packages'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/bin'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.bash'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.zsh'
+[0.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/test_move/share/colcon-core/packages/test_move)
+[0.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_move)
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move' for CMake module files
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move' for CMake config files
+[0.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_move', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/test_move/share/test_move/hook/cmake_prefix_path.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/bin'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib/pkgconfig/test_move.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/lib/python3.10/site-packages'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/test_move/bin'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.bash'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/test_move/share/test_move/package.zsh'
+[0.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/test_move/share/colcon-core/packages/test_move)
+[0.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description' for CMake module files
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/robot_description
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description' for CMake config files
+[0.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/lib/python3.10/site-packages'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/bin'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.sh'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.bash'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.zsh'
+[0.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description' for CMake module files
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description' for CMake config files
+[0.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/bin'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/lib/python3.10/site-packages'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/robot_description/bin'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.ps1'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.dsv'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.sh'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.bash'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/robot_description/share/robot_description/package.zsh'
+[0.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface' for CMake module files
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/custom_interface
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface' for CMake config files
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib'
+[0.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/bin'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib/python3.10/site-packages'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/bin'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.bash'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.zsh'
+[0.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[0.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib'
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/lib/python3.10/site-packages'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/custom_interface/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/visual_pubsub': PYTHONPATH=/home/cossio/ejer1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/cossio/ejer1_ws/build/visual_pubsub/build install --record /home/cossio/ejer1_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples' for CMake module files
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples' for CMake config files
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples/lib'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples/bin'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples/lib/pkgconfig/py_examples.pc'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages'
+[1.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_examples', 'pythonpath')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/pythonpath.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/pythonpath.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/hook/pythonpath.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/py_examples/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_examples)
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/package.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/package.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/package.sh'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/package.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/py_examples/share/py_examples/package.zsh'
+[1.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/py_examples/share/colcon-core/packages/py_examples)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub' for CMake module files
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/visual_pubsub' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/visual_pubsub build --build-base /home/cossio/ejer1_ws/build/visual_pubsub/build install --record /home/cossio/ejer1_ws/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub' for CMake config files
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub/lib'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub/bin'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub/lib/pkgconfig/visual_pubsub.pc'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages'
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_pubsub', 'pythonpath')
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/hook/pythonpath.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/cossio/ejer1_ws/install/visual_pubsub/bin'
+[1.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_pubsub)
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/package.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/package.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/package.sh'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cossio/ejer1_ws/install/visual_pubsub/share/colcon-core/packages/visual_pubsub)
+[1.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.137s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.148s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cossio/ejer1_ws/install/local_setup.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cossio/ejer1_ws/install/_local_setup_util_ps1.py'
+[1.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cossio/ejer1_ws/install/setup.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cossio/ejer1_ws/install/local_setup.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cossio/ejer1_ws/install/_local_setup_util_sh.py'
+[1.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cossio/ejer1_ws/install/setup.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cossio/ejer1_ws/install/local_setup.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cossio/ejer1_ws/install/setup.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cossio/ejer1_ws/install/local_setup.zsh'
+[1.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cossio/ejer1_ws/install/setup.zsh'

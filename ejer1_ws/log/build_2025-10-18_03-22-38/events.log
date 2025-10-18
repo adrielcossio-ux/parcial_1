@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'cpp_examples'}
+[0.000383] (-) JobUnselected: {'identifier': 'py_examples'}
+[0.000393] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000401] (-) JobUnselected: {'identifier': 'test_move'}
+[0.000409] (-) JobUnselected: {'identifier': 'visual_pubsub'}
+[0.000456] (custom_interface) JobQueued: {'identifier': 'custom_interface', 'dependencies': OrderedDict()}
+[0.000468] (custom_interface) JobStarted: {'identifier': 'custom_interface'}
+[0.006910] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'cmake'}
+[0.007335] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/custom_interface'], 'cwd': '/home/cossio/ejer1_ws/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cossio'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cossio'), ('OLDPWD', '/home/cossio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1688'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cossio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cossio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Cossio-Pc:@/tmp/.ICE-unix/1402,unix/Cossio-Pc:/tmp/.ICE-unix/1402'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5819860b_3235_4fda_9e3c_9b3c6ddf62c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.43PME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cossio/ejer1_ws/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/cossio/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062533] (custom_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099635] (-) TimerEvent: {}
+[0.108417] (custom_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116907] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.187833] (custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.192207] (custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.192417] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.192708] (custom_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194628] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199739] (-) TimerEvent: {}
+[0.274500] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.278954] (custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.279168] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279504] (custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.282555] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299866] (-) TimerEvent: {}
+[0.397594] (custom_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399980] (-) TimerEvent: {}
+[0.444621] (custom_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.474134] (custom_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500102] (-) TimerEvent: {}
+[0.501718] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.505549] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511215] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.519135] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.530078] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.559336] (custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600236] (-) TimerEvent: {}
+[0.700579] (-) TimerEvent: {}
+[0.776748] (custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800754] (-) TimerEvent: {}
+[0.901187] (-) TimerEvent: {}
+[1.001585] (-) TimerEvent: {}
+[1.088267] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101693] (-) TimerEvent: {}
+[1.202062] (-) TimerEvent: {}
+[1.204500] (custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.222502] (custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.224612] (custom_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.248558] (custom_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.248823] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.248933] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.249012] (custom_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.264918] (custom_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.302200] (-) TimerEvent: {}
+[1.305298] (custom_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.320838] (custom_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.321609] (custom_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.323855] (custom_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.354222] (custom_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.361669] (custom_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/cossio/ejer1_ws/build/custom_interface\n'}
+[1.375743] (custom_interface) CommandEnded: {'returncode': 0}
+[1.377747] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'build'}
+[1.377782] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cossio/ejer1_ws/build/custom_interface', '--', '-j16', '-l16'], 'cwd': '/home/cossio/ejer1_ws/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cossio'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cossio'), ('OLDPWD', '/home/cossio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1688'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cossio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cossio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Cossio-Pc:@/tmp/.ICE-unix/1402,unix/Cossio-Pc:/tmp/.ICE-unix/1402'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5819860b_3235_4fda_9e3c_9b3c6ddf62c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.43PME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cossio/ejer1_ws/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/cossio/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.402345] (-) TimerEvent: {}
+[1.417842] (custom_interface) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.427200] (custom_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.438153] (custom_interface) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_custom_interface\n'}
+[1.502493] (-) TimerEvent: {}
+[1.594524] (custom_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.594849] (custom_interface) StdoutLine: {'line': b'creating custom_interface.egg-info\n'}
+[1.594982] (custom_interface) StdoutLine: {'line': b'writing custom_interface.egg-info/PKG-INFO\n'}
+[1.595094] (custom_interface) StdoutLine: {'line': b'writing dependency_links to custom_interface.egg-info/dependency_links.txt\n'}
+[1.595175] (custom_interface) StdoutLine: {'line': b'writing top-level names to custom_interface.egg-info/top_level.txt\n'}
+[1.595303] (custom_interface) StdoutLine: {'line': b"writing manifest file 'custom_interface.egg-info/SOURCES.txt'\n"}
+[1.596588] (custom_interface) StdoutLine: {'line': b"reading manifest file 'custom_interface.egg-info/SOURCES.txt'\n"}
+[1.596959] (custom_interface) StdoutLine: {'line': b"writing manifest file 'custom_interface.egg-info/SOURCES.txt'\n"}
+[1.602609] (-) TimerEvent: {}
+[1.624084] (custom_interface) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_custom_interface_egg\n'}
+[1.703454] (-) TimerEvent: {}
+[1.712634] (custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.712902] (custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/get_position__functions.c.o\x1b[0m\n'}
+[1.712981] (custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[1.713031] (custom_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.720204] (custom_interface) StdoutLine: {'line': b'[ 10%] Built target custom_interface__cpp\n'}
+[1.731474] (custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.731892] (custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.731955] (custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.761844] (custom_interface) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_generator_c.so\x1b[0m\n'}
+[1.799759] (custom_interface) StdoutLine: {'line': b'[ 18%] Built target custom_interface__rosidl_generator_c\n'}
+[1.803563] (-) TimerEvent: {}
+[1.809847] (custom_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.810058] (custom_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.810109] (custom_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.903639] (-) TimerEvent: {}
+[1.945309] (custom_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.945564] (custom_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[1.945620] (custom_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[1.945669] (custom_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.991400] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.991842] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[1.991912] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/get_position__type_support.cpp.o\x1b[0m\n'}
+[1.991961] (custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.004894] (-) TimerEvent: {}
+[2.041337] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.041635] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/get_position__type_support.cpp.o\x1b[0m\n'}
+[2.041685] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.041735] (custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.105046] (-) TimerEvent: {}
+[2.120044] (custom_interface) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.122424] (custom_interface) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.172940] (custom_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.173265] (custom_interface) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[2.205210] (-) TimerEvent: {}
+[2.214628] (custom_interface) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.214960] (custom_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[2.216729] (custom_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[2.230926] (custom_interface) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.266483] (custom_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[2.266890] (custom_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/get_position__type_support_c.cpp.o\x1b[0m\n'}
+[2.266962] (custom_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[2.278619] (custom_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[2.287970] (custom_interface) StdoutLine: {'line': b'[ 67%] Built target custom_interface__rosidl_typesupport_c\n'}
+[2.297555] (custom_interface) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.303922] (custom_interface) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/get_position__type_support.c.o\x1b[0m\n'}
+[2.305304] (-) TimerEvent: {}
+[2.362844] (custom_interface) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.372133] (custom_interface) StdoutLine: {'line': b'[ 72%] Built target custom_interface__rosidl_typesupport_cpp\n'}
+[2.405473] (-) TimerEvent: {}
+[2.411249] (custom_interface) StdoutLine: {'line': b'[ 72%] Built target custom_interface__rosidl_typesupport_introspection_c\n'}
+[2.478037] (custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.505636] (-) TimerEvent: {}
+[2.523190] (custom_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.552819] (custom_interface) StdoutLine: {'line': b'[ 76%] Built target custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[2.605816] (-) TimerEvent: {}
+[2.606491] (custom_interface) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.606635] (custom_interface) StdoutLine: {'line': b'[ 78%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[2.676758] (custom_interface) StdoutLine: {'line': b'[ 78%] Built target custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[2.695699] (custom_interface) StdoutLine: {'line': b'[ 78%] Built target custom_interface\n'}
+[2.705913] (-) TimerEvent: {}
+[2.715853] (custom_interface) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.806074] (-) TimerEvent: {}
+[2.906467] (-) TimerEvent: {}
+[3.006851] (-) TimerEvent: {}
+[3.107243] (-) TimerEvent: {}
+[3.110313] (custom_interface) StdoutLine: {'line': b'[ 80%] Built target custom_interface__py\n'}
+[3.131547] (custom_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/msg/_num_s.c.o\x1b[0m\n'}
+[3.131858] (custom_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[3.132010] (custom_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/msg/_sphere_s.c.o\x1b[0m\n'}
+[3.132092] (custom_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/srv/_get_position_s.c.o\x1b[0m\n'}
+[3.207344] (-) TimerEvent: {}
+[3.221062] (custom_interface) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__rosidl_generator_py.so\x1b[0m\n'}
+[3.260907] (custom_interface) StdoutLine: {'line': b'[ 89%] Built target custom_interface__rosidl_generator_py\n'}
+[3.279063] (custom_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.279203] (custom_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.279536] (custom_interface) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.307477] (-) TimerEvent: {}
+[3.356321] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.356549] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.356659] (custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.386487] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[3.387916] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.388101] (custom_interface) StdoutLine: {'line': b'[100%] Built target custom_interface__rosidl_typesupport_c__pyext\n'}
+[3.399914] (custom_interface) CommandEnded: {'returncode': 0}
+[3.401014] (custom_interface) JobProgress: {'identifier': 'custom_interface', 'progress': 'install'}
+[3.408618] (custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cossio/ejer1_ws/build/custom_interface'], 'cwd': '/home/cossio/ejer1_ws/build/custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cossio'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cossio'), ('OLDPWD', '/home/cossio'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1688'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cossio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cossio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Cossio-Pc:@/tmp/.ICE-unix/1402,unix/Cossio-Pc:/tmp/.ICE-unix/1402'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5819860b_3235_4fda_9e3c_9b3c6ddf62c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.43PME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cossio/ejer1_ws/build/custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/cossio/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.409259] (-) TimerEvent: {}
+[3.415284] (custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.415728] (custom_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.416253] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface\n'}
+[3.423311] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__functions.h\n'}
+[3.430024] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__struct.h\n'}
+[3.437070] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.h\n'}
+[3.445791] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__functions.h\n'}
+[3.452731] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__struct.h\n'}
+[3.459590] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.h\n'}
+[3.466423] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/num.h\n'}
+[3.473335] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.482003] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/sphere.h\n'}
+[3.490868] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.h\n'}
+[3.498615] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__functions.h\n'}
+[3.506549] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.h\n'}
+[3.509367] (-) TimerEvent: {}
+[3.514675] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.h\n'}
+[3.522342] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__functions.h\n'}
+[3.530731] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__struct.h\n'}
+[3.539935] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.h\n'}
+[3.548635] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/get_position.h\n'}
+[3.555702] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/library_path.sh\n'}
+[3.563355] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv\n'}
+[3.572054] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[3.580627] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[3.587287] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.596107] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[3.603805] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h\n'}
+[3.609473] (-) TimerEvent: {}
+[3.612495] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__builder.hpp\n'}
+[3.619242] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__struct.hpp\n'}
+[3.627994] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__traits.hpp\n'}
+[3.634746] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__type_support.hpp\n'}
+[3.644767] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__builder.hpp\n'}
+[3.651809] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__struct.hpp\n'}
+[3.659887] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__traits.hpp\n'}
+[3.667302] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__type_support.hpp\n'}
+[3.674815] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/num.hpp\n'}
+[3.682158] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.690286] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/sphere.hpp\n'}
+[3.697979] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/add_three_ints.hpp\n'}
+[3.705676] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__builder.hpp\n'}
+[3.709578] (-) TimerEvent: {}
+[3.713223] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__struct.hpp\n'}
+[3.721554] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__traits.hpp\n'}
+[3.728844] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__type_support.hpp\n'}
+[3.735831] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__builder.hpp\n'}
+[3.745187] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__struct.hpp\n'}
+[3.753065] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__traits.hpp\n'}
+[3.761187] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__type_support.hpp\n'}
+[3.769714] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/get_position.hpp\n'}
+[3.779433] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.786798] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.795582] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.803072] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.809686] (-) TimerEvent: {}
+[3.810818] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.819046] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[3.825913] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[3.832803] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.842771] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[3.850593] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_introspection_c.h\n'}
+[3.859086] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.867323] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.876007] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.883773] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.891901] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh\n'}
+[3.899211] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv\n'}
+[3.906814] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.909828] (-) TimerEvent: {}
+[3.913588] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.920377] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.927523] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.935654] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py\n'}
+[3.945154] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c\n'}
+[3.953318] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.962039] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.969287] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.976817] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.983756] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.991610] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/libcustom_interface__rosidl_generator_py.so\n'}
+[3.998577] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/__init__.py\n'}
+[4.005268] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num.py\n'}
+[4.009932] (-) TimerEvent: {}
+[4.013238] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num_s.c\n'}
+[4.020788] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere.py\n'}
+[4.029034] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere_s.c\n'}
+[4.037342] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py\n'}
+[4.047614] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints.py\n'}
+[4.055324] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints_s.c\n'}
+[4.063565] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position.py\n'}
+[4.070366] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position_s.c\n'}
+[4.078885] (custom_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.079274] (custom_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.079585] (custom_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.079679] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/msg/Num.idl\n'}
+[4.086962] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/msg/Sphere.idl\n'}
+[4.095177] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts.idl\n'}
+[4.103162] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/GetPosition.idl\n'}
+[4.109511] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/msg/Num.msg\n'}
+[4.110008] (-) TimerEvent: {}
+[4.116976] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/msg/Sphere.msg\n'}
+[4.125083] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts.srv\n'}
+[4.133298] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts_Request.msg\n'}
+[4.141544] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/AddThreeInts_Response.msg\n'}
+[4.151199] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/GetPosition.srv\n'}
+[4.159127] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/GetPosition_Request.msg\n'}
+[4.166484] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/srv/GetPosition_Response.msg\n'}
+[4.174476] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface\n'}
+[4.182540] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface\n'}
+[4.189901] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh\n'}
+[4.198038] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv\n'}
+[4.204769] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/path.sh\n'}
+[4.210124] (-) TimerEvent: {}
+[4.211608] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/environment/path.dsv\n'}
+[4.218104] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/local_setup.bash\n'}
+[4.224487] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/local_setup.sh\n'}
+[4.231183] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/local_setup.zsh\n'}
+[4.239709] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/local_setup.dsv\n'}
+[4.249100] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.dsv\n'}
+[4.256535] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface\n'}
+[4.264468] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[4.272534] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.280901] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.288757] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.295935] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.303793] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.310234] (-) TimerEvent: {}
+[4.310548] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.317988] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake\n'}
+[4.325361] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake\n'}
+[4.333910] (custom_interface) StdoutLine: {'line': b'-- Symlinking: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/package.xml\n'}
+[4.344379] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so\n'}
+[4.344619] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""\n'}
+[4.344720] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[4.344970] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.345053] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.345283] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.345434] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so\n'}
+[4.345600] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.345668] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so\n'}
+[4.345880] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""\n'}
+[4.345942] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[4.346141] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.346198] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so\n'}
+[4.346396] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[4.373397] (custom_interface) StdoutLine: {'line': b"Listing '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface'...\n"}
+[4.373600] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py'...\n"}
+[4.373691] (custom_interface) StdoutLine: {'line': b"Listing '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg'...\n"}
+[4.373770] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/__init__.py'...\n"}
+[4.373865] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_num.py'...\n"}
+[4.373936] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/msg/_sphere.py'...\n"}
+[4.373999] (custom_interface) StdoutLine: {'line': b"Listing '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv'...\n"}
+[4.374069] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py'...\n"}
+[4.374150] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_add_three_ints.py'...\n"}
+[4.374213] (custom_interface) StdoutLine: {'line': b"Compiling '/home/cossio/ejer1_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_get_position.py'...\n"}
+[4.376438] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so\n'}
+[4.377062] (custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cossio/ejer1_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so" to ""\n'}
+[4.377223] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake\n'}
+[4.377406] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.377508] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.377634] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.377711] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake\n'}
+[4.377843] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.377918] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.378032] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.378133] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.378206] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[4.378268] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.378299] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.378351] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.378480] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[4.378553] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.378683] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake\n'}
+[4.378767] (custom_interface) StdoutLine: {'line': b'-- Installing: /home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.380868] (custom_interface) CommandEnded: {'returncode': 0}
+[4.395136] (custom_interface) JobEnded: {'identifier': 'custom_interface', 'rc': 0}
+[4.395750] (-) EventReactorShutdown: {}

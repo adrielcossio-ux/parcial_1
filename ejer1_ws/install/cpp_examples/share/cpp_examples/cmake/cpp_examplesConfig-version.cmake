@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/build/cpp_examples/ament_cmake_core/cpp_examplesConfig-version.cmake

@@ -1,0 +1,27 @@
+[0.215s] Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[0.272s] [100%] Built target hello_moveit
+[0.273s] [100%] Built target draw_a
+[0.273s] [100%] Built target collition
+[0.405s] Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[0.406s] Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move
+[0.414s] -- Install configuration: ""
+[0.415s] -- Execute custom install script
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/lib/test_move/hello_moveit
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/lib/test_move/collition
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/lib/test_move/draw_a
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[0.415s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/path.sh
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/path.dsv
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.bash
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.sh
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.zsh
+[0.416s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.dsv
+[0.416s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/package.dsv
+[0.425s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[0.425s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[0.425s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[0.425s] -- Up-to-date symlink: /home/cossio/ejer1_ws/install/test_move/share/test_move/package.xml
+[0.445s] Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cossio/ejer1_ws/install/visual_pubsub:/home/cossio/ejer1_ws/install/py_examples:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move

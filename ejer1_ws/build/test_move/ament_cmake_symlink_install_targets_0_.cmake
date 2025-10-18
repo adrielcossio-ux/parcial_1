@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cossio/ejer1_ws/build/test_move/hello_moveit" "/home/cossio/ejer1_ws/build/test_move/collition" "/home/cossio/ejer1_ws/build/test_move/draw_a" "TARGETS" "hello_moveit" "collition" "draw_a" "DESTINATION" "lib/test_move")

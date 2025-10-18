@@ -1,0 +1,27 @@
+[0.740s] Invoking command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data
+[0.900s] running egg_info
+[0.900s] writing ../../../build/py_examples/py_examples.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../../build/py_examples/py_examples.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../../build/py_examples/py_examples.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../../build/py_examples/py_examples.egg-info/requires.txt
+[0.900s] writing top-level names to ../../../build/py_examples/py_examples.egg-info/top_level.txt
+[0.902s] reading manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.902s] adding license file 'LICENSE'
+[0.902s] writing manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[0.902s] running build
+[0.902s] running build_py
+[0.903s] running install
+[0.903s] running install_lib
+[0.904s] running install_data
+[0.904s] running install_egg_info
+[0.905s] removing '/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.905s] Copying ../../../build/py_examples/py_examples.egg-info to /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info
+[0.906s] running install_scripts
+[0.921s] Installing client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] Installing pos_client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] Installing pos_server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] Installing publipy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] Installing server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] Installing subpy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[0.921s] writing list of installed files to '/home/cossio/ejer1_ws/build/py_examples/install.log'
+[0.961s] Invoked command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data

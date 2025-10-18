@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_cmake/srv/GetPosition_Request.msg

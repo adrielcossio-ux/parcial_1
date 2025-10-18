@@ -1,0 +1,31 @@
+[0.744s] Invoking command in '/home/cossio/ejer1_ws/build/py_examples': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cossio/ejer1_ws/build/py_examples/build --no-deps symlink_data
+[0.916s] running develop
+[1.009s] running egg_info
+[1.009s] creating py_examples.egg-info
+[1.009s] writing py_examples.egg-info/PKG-INFO
+[1.009s] writing dependency_links to py_examples.egg-info/dependency_links.txt
+[1.009s] writing entry points to py_examples.egg-info/entry_points.txt
+[1.009s] writing requirements to py_examples.egg-info/requires.txt
+[1.009s] writing top-level names to py_examples.egg-info/top_level.txt
+[1.009s] writing manifest file 'py_examples.egg-info/SOURCES.txt'
+[1.010s] reading manifest file 'py_examples.egg-info/SOURCES.txt'
+[1.011s] writing manifest file 'py_examples.egg-info/SOURCES.txt'
+[1.012s] running build_ext
+[1.012s] Creating /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py-examples.egg-link (link to .)
+[1.013s] Installing client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.013s] Installing pos_client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.013s] Installing pos_server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.013s] Installing publipy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.013s] Installing server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.013s] Installing subpy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.014s] 
+[1.014s] Installed /home/cossio/ejer1_ws/build/py_examples
+[1.014s] running symlink_data
+[1.014s] creating /home/cossio/ejer1_ws/install/py_examples/share/ament_index
+[1.014s] creating /home/cossio/ejer1_ws/install/py_examples/share/ament_index/resource_index
+[1.014s] creating /home/cossio/ejer1_ws/install/py_examples/share/ament_index/resource_index/packages
+[1.014s] symbolically linking /home/cossio/ejer1_ws/build/py_examples/resource/py_examples -> /home/cossio/ejer1_ws/install/py_examples/share/ament_index/resource_index/packages
+[1.014s] symbolically linking /home/cossio/ejer1_ws/build/py_examples/package.xml -> /home/cossio/ejer1_ws/install/py_examples/share/py_examples
+[1.014s] creating /home/cossio/ejer1_ws/install/py_examples/share/py_examples/launch
+[1.014s] symbolically linking /home/cossio/ejer1_ws/build/py_examples/launch/py_example_launch.py -> /home/cossio/ejer1_ws/install/py_examples/share/py_examples/launch
+[1.081s] Invoked command in '/home/cossio/ejer1_ws/build/py_examples' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cossio/ejer1_ws/build/py_examples/build --no-deps symlink_data

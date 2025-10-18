@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface:msg/Num.msg",
+    "/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface:msg/Sphere.msg",
+    "/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface:srv/AddThreeInts.srv",
+    "/home/cossio/ejer1_ws/src/ros2_tutorials-main/custom_interface:srv/GetPosition.srv"
+  ]
+}

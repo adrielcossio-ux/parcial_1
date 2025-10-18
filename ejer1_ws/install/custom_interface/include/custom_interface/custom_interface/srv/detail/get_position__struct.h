@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_generator_c/custom_interface/srv/detail/get_position__struct.h

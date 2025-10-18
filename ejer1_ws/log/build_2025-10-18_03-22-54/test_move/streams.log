@@ -1,0 +1,92 @@
+[0.214s] Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/test_move
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.308s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.385s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.469s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.582s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.634s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.660s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.825s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.857s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.861s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.868s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.050s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.096s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.137s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.140s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.280s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.348s] -- Found Threads: TRUE  
+[1.408s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.444s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.598s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.651s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.651s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.884s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.954s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.085s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.086s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move/include>
+[2.086s] -- Configured cppcheck exclude dirs and/or files: 
+[2.086s] -- Added test 'lint_cmake' to check CMake code style
+[2.087s] -- Added test 'uncrustify' to check C / C++ code style
+[2.087s] -- Configured uncrustify additional arguments: 
+[2.088s] -- Added test 'xmllint' to check XML markup files
+[2.089s] -- Configuring done
+[2.165s] -- Generating done
+[2.191s] -- Build files have been written to: /home/cossio/ejer1_ws/build/test_move
+[2.240s] Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/test_move
+[2.243s] Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[2.325s] [ 50%] [32mBuilding CXX object CMakeFiles/collition.dir/src/move_constrain.cpp.o[0m
+[2.325s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[2.325s] [ 50%] [32mBuilding CXX object CMakeFiles/draw_a.dir/src/a_path.cpp.o[0m
+[7.048s] [01m[K/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.048s] [01m[K/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move/src/hello_moveit.cpp:31:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.048s]    31 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[7.048s]       |                                                                                            [01;35m[K^~~~~~~[m[K
+[7.048s] In file included from [01m[K/home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move/src/hello_moveit.cpp:3[m[K:
+[7.049s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.049s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[7.049s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[8.169s] [ 66%] [32m[1mLinking CXX executable collition[0m
+[8.356s] [ 66%] Built target collition
+[9.092s] [ 83%] [32m[1mLinking CXX executable draw_a[0m
+[9.195s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[9.284s] [100%] Built target draw_a
+[9.386s] [100%] Built target hello_moveit
+[9.396s] Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+[9.397s] Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move
+[9.405s] -- Install configuration: ""
+[9.405s] -- Execute custom install script
+[9.405s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/lib/test_move/hello_moveit
+[9.413s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/lib/test_move/collition
+[9.420s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/lib/test_move/draw_a
+[9.428s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[9.436s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[9.444s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[9.453s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[9.459s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/path.sh
+[9.466s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/environment/path.dsv
+[9.473s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.bash
+[9.480s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.sh
+[9.487s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.zsh
+[9.494s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/local_setup.dsv
+[9.500s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/package.dsv
+[9.507s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[9.514s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[9.521s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[9.528s] -- Symlinking: /home/cossio/ejer1_ws/install/test_move/share/test_move/package.xml
+[9.538s] Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move

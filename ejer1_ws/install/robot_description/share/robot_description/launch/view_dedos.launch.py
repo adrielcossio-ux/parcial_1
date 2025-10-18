@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/src/ros2_tutorials-main/robot_description/launch/view_dedos.launch.py

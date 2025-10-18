@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/build/custom_interface/ament_cmake_core/custom_interfaceConfig.cmake

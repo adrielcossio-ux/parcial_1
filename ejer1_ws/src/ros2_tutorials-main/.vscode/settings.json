@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "/home/carlos/clases/clases_ws/src/ros2_tutorials/cpp_examples",
+    "python-envs.pythonProjects": [
+        {
+            "path": "visual_pubsub/visual_pubsub",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}

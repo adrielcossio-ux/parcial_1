@@ -1,0 +1,58 @@
+[0.701s] Invoking command in '/home/cossio/ejer1_ws/build/py_examples': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/cossio/ejer1_ws/build/py_examples/build
+[0.868s] running develop
+[0.962s] Removing /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py-examples.egg-link (link to .)
+[1.000s] Invoked command in '/home/cossio/ejer1_ws/build/py_examples' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/cossio/ejer1_ws/build/py_examples/build
+[1.002s] Invoking command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data --force
+[1.166s] running egg_info
+[1.167s] writing ../../../build/py_examples/py_examples.egg-info/PKG-INFO
+[1.167s] writing dependency_links to ../../../build/py_examples/py_examples.egg-info/dependency_links.txt
+[1.167s] writing entry points to ../../../build/py_examples/py_examples.egg-info/entry_points.txt
+[1.167s] writing requirements to ../../../build/py_examples/py_examples.egg-info/requires.txt
+[1.167s] writing top-level names to ../../../build/py_examples/py_examples.egg-info/top_level.txt
+[1.168s] reading manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[1.168s] adding license file 'LICENSE'
+[1.169s] writing manifest file '../../../build/py_examples/py_examples.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.169s] running build_py
+[1.169s] creating /home/cossio/ejer1_ws/build/py_examples/build
+[1.169s] creating /home/cossio/ejer1_ws/build/py_examples/build/lib
+[1.169s] creating /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.169s] copying py_examples/__init__.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.169s] copying py_examples/service_py_example.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.169s] copying py_examples/client_py_example.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.170s] copying py_examples/pub.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.170s] copying py_examples/sub.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.170s] copying py_examples/position_client.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.170s] copying py_examples/position_service.py -> /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples
+[1.170s] running install
+[1.170s] running install_lib
+[1.171s] creating /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/__init__.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/service_py_example.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/client_py_example.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/pub.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/sub.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/position_client.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.171s] copying /home/cossio/ejer1_ws/build/py_examples/build/lib/py_examples/position_service.py -> /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples
+[1.172s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/__init__.py to __init__.cpython-310.pyc
+[1.172s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/service_py_example.py to service_py_example.cpython-310.pyc
+[1.172s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/client_py_example.py to client_py_example.cpython-310.pyc
+[1.172s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/pub.py to pub.cpython-310.pyc
+[1.173s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/sub.py to sub.cpython-310.pyc
+[1.173s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/position_client.py to position_client.cpython-310.pyc
+[1.173s] byte-compiling /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples/position_service.py to position_service.cpython-310.pyc
+[1.173s] running install_data
+[1.173s] copying resource/py_examples -> /home/cossio/ejer1_ws/install/py_examples/share/ament_index/resource_index/packages
+[1.174s] copying package.xml -> /home/cossio/ejer1_ws/install/py_examples/share/py_examples
+[1.174s] copying launch/py_example_launch.py -> /home/cossio/ejer1_ws/install/py_examples/share/py_examples/launch
+[1.174s] running install_egg_info
+[1.175s] Copying ../../../build/py_examples/py_examples.egg-info to /home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages/py_examples-0.0.0-py3.10.egg-info
+[1.176s] running install_scripts
+[1.192s] Installing client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] Installing pos_client script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] Installing pos_server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] Installing publipy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] Installing server script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] Installing subpy script to /home/cossio/ejer1_ws/install/py_examples/lib/py_examples
+[1.192s] writing list of installed files to '/home/cossio/ejer1_ws/build/py_examples/install.log'
+[1.227s] Invoked command in '/home/cossio/ejer1_ws/src/ros2_tutorials-main/py_examples' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_examples build --build-base /home/cossio/ejer1_ws/build/py_examples/build install --record /home/cossio/ejer1_ws/build/py_examples/install.log --single-version-externally-managed install_data --force

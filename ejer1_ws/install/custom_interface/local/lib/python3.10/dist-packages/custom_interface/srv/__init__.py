@@ -1,0 +1,1 @@
+/home/cossio/ejer1_ws/build/custom_interface/rosidl_generator_py/custom_interface/srv/__init__.py

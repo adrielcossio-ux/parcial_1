@@ -1,0 +1,6 @@
+Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/test_move
+Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/test_move -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/test_move
+Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/test_move -- -j16 -l16
+Invoking command in '/home/cossio/ejer1_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move
+Invoked command in '/home/cossio/ejer1_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/test_move

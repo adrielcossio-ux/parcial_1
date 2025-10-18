@@ -1,0 +1,20 @@
+[0.382s] Invoking command in '/home/cossio/ejer1_ws/build/visual_pubsub': PYTHONPATH=/home/cossio/ejer1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cossio/ejer1_ws/build/visual_pubsub/build --no-deps symlink_data --force
+[0.535s] running develop
+[0.619s] running egg_info
+[0.620s] writing visual_pubsub.egg-info/PKG-INFO
+[0.620s] writing dependency_links to visual_pubsub.egg-info/dependency_links.txt
+[0.620s] writing entry points to visual_pubsub.egg-info/entry_points.txt
+[0.620s] writing requirements to visual_pubsub.egg-info/requires.txt
+[0.620s] writing top-level names to visual_pubsub.egg-info/top_level.txt
+[0.621s] reading manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.622s] writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.623s] running build_ext
+[0.623s] Creating /home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual-pubsub.egg-link (link to .)
+[0.623s] Installing pub_joints = visual_pubsub.pub_joints:maininverse_kinematics script to /home/cossio/ejer1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.623s] Installing sub_joints script to /home/cossio/ejer1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.623s] 
+[0.624s] Installed /home/cossio/ejer1_ws/build/visual_pubsub
+[0.624s] running symlink_data
+[0.624s] symbolically linking /home/cossio/ejer1_ws/build/visual_pubsub/resource/visual_pubsub -> /home/cossio/ejer1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.624s] symbolically linking /home/cossio/ejer1_ws/build/visual_pubsub/package.xml -> /home/cossio/ejer1_ws/install/visual_pubsub/share/visual_pubsub
+[0.643s] Invoked command in '/home/cossio/ejer1_ws/build/visual_pubsub' returned '0': PYTHONPATH=/home/cossio/ejer1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cossio/ejer1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cossio/ejer1_ws/build/visual_pubsub/build --no-deps symlink_data --force

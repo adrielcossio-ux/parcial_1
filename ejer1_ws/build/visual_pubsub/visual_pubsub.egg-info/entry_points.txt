@@ -1,0 +1,5 @@
+[console_scripts]
+inverse_kinematics = visual_pubsub.inverse_kinematics:main
+joint_state_publisher = visual_pubsub.joint_state_publisher:main
+joint_state_subscriber = visual_pubsub.joint_state_subscriber:main
+

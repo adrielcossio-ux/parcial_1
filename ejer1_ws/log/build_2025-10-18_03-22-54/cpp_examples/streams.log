@@ -1,0 +1,107 @@
+[0.025s] Invoking command in '/home/cossio/ejer1_ws/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/cpp_examples
+[0.229s] -- The C compiler identification is GNU 11.4.0
+[0.229s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.501s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.538s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.542s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.548s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.768s] -- Looking for pthread.h
+[0.838s] -- Looking for pthread.h - found
+[0.838s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.906s] -- Found Threads: TRUE  
+[0.944s] -- Found custom_interface: 0.0.0 (/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake)
+[0.968s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.027s] -- Configured cppcheck include dirs: 
+[1.027s] -- Configured cppcheck exclude dirs and/or files: 
+[1.027s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.028s] -- Added test 'lint_cmake' to check CMake code style
+[1.028s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.029s] -- Added test 'uncrustify' to check C / C++ code style
+[1.029s] -- Configured uncrustify additional arguments: 
+[1.029s] -- Added test 'xmllint' to check XML markup files
+[1.031s] -- Configuring done
+[1.057s] -- Generating done
+[1.066s] -- Build files have been written to: /home/cossio/ejer1_ws/build/cpp_examples
+[1.084s] Invoked command in '/home/cossio/ejer1_ws/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cossio/ejer1_ws/src/ros2_tutorials-main/cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cossio/ejer1_ws/install/cpp_examples
+[1.086s] Invoking command in '/home/cossio/ejer1_ws/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/cpp_examples -- -j16 -l16
+[1.138s] [ 22%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o[0m
+[1.139s] [ 22%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/pub_int_array.cpp.o[0m
+[1.139s] [ 22%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o[0m
+[1.139s] [ 27%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_example.cpp.o[0m
+[1.139s] [ 27%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[1.139s] [ 44%] [32mBuilding CXX object CMakeFiles/sub_array.dir/src/sub_int_array.cpp.o[0m
+[1.139s] [ 44%] [32mBuilding CXX object CMakeFiles/server.dir/src/service_example.cpp.o[0m
+[1.139s] [ 44%] [32mBuilding CXX object CMakeFiles/sub_custom.dir/src/custom_msg_sub.cpp.o[0m
+[1.139s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_custom.dir/src/custom_msg_pub.cpp.o[0m
+[4.844s] [ 55%] [32m[1mLinking CXX executable server[0m
+[5.057s] [ 55%] Built target server
+[5.210s] [ 61%] [32m[1mLinking CXX executable pub_custom[0m
+[5.296s] [ 66%] [32m[1mLinking CXX executable client[0m
+[5.300s] [ 72%] [32m[1mLinking CXX executable pub_array[0m
+[5.438s] [ 72%] Built target client
+[5.449s] [ 72%] Built target pub_custom
+[5.530s] [ 72%] Built target pub_array
+[5.875s] [ 77%] [32m[1mLinking CXX executable publisher[0m
+[6.018s] [ 77%] Built target publisher
+[7.766s] [ 83%] [32m[1mLinking CXX executable sub_custom[0m
+[7.915s] [ 88%] [32m[1mLinking CXX executable subscriber[0m
+[8.046s] [ 88%] Built target sub_custom
+[8.172s] [ 88%] Built target subscriber
+[8.237s] [ 94%] [32m[1mLinking CXX executable sub_array[0m
+[8.493s] [ 94%] Built target sub_array
+[8.586s] [100%] [32m[1mLinking CXX executable pubsub[0m
+[8.834s] [100%] Built target pubsub
+[8.847s] Invoked command in '/home/cossio/ejer1_ws/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cossio/ejer1_ws/build/cpp_examples -- -j16 -l16
+[8.849s] Invoking command in '/home/cossio/ejer1_ws/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/cpp_examples
+[8.857s] -- Install configuration: ""
+[8.858s] -- Execute custom install script
+[8.858s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/publisher
+[8.867s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/subscriber
+[8.877s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pubsub
+[8.885s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pub_array
+[8.895s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/sub_array
+[8.904s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pub_custom
+[8.913s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/sub_custom
+[8.920s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/server
+[8.930s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/client
+[8.940s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_arrays_launch.py
+[8.949s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_custom_launch.py
+[8.957s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_launch.py
+[8.966s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/package_run_dependencies/cpp_examples
+[8.975s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/parent_prefix_path/cpp_examples
+[8.983s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.sh
+[8.991s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.dsv
+[8.999s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/path.sh
+[9.007s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/path.dsv
+[9.015s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.bash
+[9.024s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.sh
+[9.033s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.zsh
+[9.042s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.dsv
+[9.049s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.dsv
+[9.057s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/packages/cpp_examples
+[9.065s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig.cmake
+[9.072s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig-version.cmake
+[9.080s] -- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.xml
+[9.090s] Invoked command in '/home/cossio/ejer1_ws/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cossio/ejer1_ws/build/cpp_examples

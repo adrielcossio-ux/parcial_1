@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found custom_interface: 0.0.0 (/home/cossio/ejer1_ws/install/custom_interface/share/custom_interface/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cossio/ejer1_ws/build/cpp_examples
+[ 22%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pub_array.dir/src/pub_int_array.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_example.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/pubsub.dir/src/pubsub.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sub_array.dir/src/sub_int_array.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/server.dir/src/service_example.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sub_custom.dir/src/custom_msg_sub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_custom.dir/src/custom_msg_pub.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable server[0m
+[ 55%] Built target server
+[ 61%] [32m[1mLinking CXX executable pub_custom[0m
+[ 66%] [32m[1mLinking CXX executable client[0m
+[ 72%] [32m[1mLinking CXX executable pub_array[0m
+[ 72%] Built target client
+[ 72%] Built target pub_custom
+[ 72%] Built target pub_array
+[ 77%] [32m[1mLinking CXX executable publisher[0m
+[ 77%] Built target publisher
+[ 83%] [32m[1mLinking CXX executable sub_custom[0m
+[ 88%] [32m[1mLinking CXX executable subscriber[0m
+[ 88%] Built target sub_custom
+[ 88%] Built target subscriber
+[ 94%] [32m[1mLinking CXX executable sub_array[0m
+[ 94%] Built target sub_array
+[100%] [32m[1mLinking CXX executable pubsub[0m
+[100%] Built target pubsub
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/publisher
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/subscriber
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pubsub
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pub_array
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/sub_array
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/pub_custom
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/sub_custom
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/server
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/lib/cpp_examples/client
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_arrays_launch.py
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_custom_launch.py
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/launch/pubsub_launch.py
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/package_run_dependencies/cpp_examples
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/parent_prefix_path/cpp_examples
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.sh
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/path.sh
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/environment/path.dsv
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.bash
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.sh
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.zsh
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/local_setup.dsv
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.dsv
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/ament_index/resource_index/packages/cpp_examples
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig.cmake
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig-version.cmake
+-- Symlinking: /home/cossio/ejer1_ws/install/cpp_examples/share/cpp_examples/package.xml
