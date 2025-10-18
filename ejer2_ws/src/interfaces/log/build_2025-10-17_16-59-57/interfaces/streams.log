@@ -1,0 +1,100 @@
+[0.015s] Invoking command in '/home/fab/ejer2_ws/src/interfaces/build/interfaces': CMAKE_PREFIX_PATH=/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake /home/fab/ejer2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/src/interfaces/install/interfaces
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.301s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.662s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.821s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.883s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.901s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.410s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.180s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.183s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.235s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.236s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.236s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.276s] -- Found PythonExtra: .so  
+[2.339s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.387s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_introspection_cpp>;/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_c;/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_py
+[2.387s] -- Configured cppcheck exclude dirs and/or files: 
+[2.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.393s] -- Added test 'lint_cmake' to check CMake code style
+[2.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.406s] -- Added test 'uncrustify' to check C / C++ code style
+[2.406s] -- Configured uncrustify additional arguments: 
+[2.408s] -- Added test 'xmllint' to check XML markup files
+[2.413s] -- Configuring done
+[2.462s] -- Generating done
+[2.479s] -- Build files have been written to: /home/fab/ejer2_ws/src/interfaces/build/interfaces
+[2.495s] Invoked command in '/home/fab/ejer2_ws/src/interfaces/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake /home/fab/ejer2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/src/interfaces/install/interfaces
+[2.499s] Invoking command in '/home/fab/ejer2_ws/src/interfaces/build/interfaces': CMAKE_PREFIX_PATH=/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake --build /home/fab/ejer2_ws/src/interfaces/build/interfaces -- -j4 -l4
+[2.555s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.578s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.592s] [  6%] Built target ament_cmake_python_copy_interfaces
+[3.055s] running egg_info
+[3.056s] creating interfaces.egg-info
+[3.056s] writing interfaces.egg-info/PKG-INFO
+[3.056s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.056s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.057s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.060s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.061s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.125s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[3.248s] [  6%] Built target interfaces__cpp
+[3.250s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c.o[0m
+[3.268s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.271s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.278s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.287s] In file included from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.h:19[m[K,
+[3.287s]                  from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c:4[m[K:
+[3.288s] [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.h: No such file or directory
+[3.288s]    22 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.h"[m[K
+[3.288s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.288s] compilation terminated.
+[3.289s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c.o] Error 1
+[3.289s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2
+[3.290s] gmake[1]: *** Waiting for unfinished jobs....
+[3.740s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp.o[0m
+[3.837s] In file included from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp:12[m[K:
+[3.837s] [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[3.838s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[3.838s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.838s] compilation terminated.
+[3.867s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp.o] Error 1
+[3.867s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[3.895s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp.o[0m
+[3.901s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o[0m
+[3.968s] In file included from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp:7[m[K:
+[3.969s] [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[3.969s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[3.969s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.969s] compilation terminated.
+[3.970s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp.o] Error 1
+[3.971s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[3.980s] In file included from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[3.980s]                  from [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp:4[m[K:
+[3.980s] [01m[K/home/fab/ejer2_ws/src/interfaces/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[3.981s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[3.981s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.981s] compilation terminated.
+[3.982s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o] Error 1
+[3.982s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[3.982s] gmake: *** [Makefile:146: all] Error 2
+[3.987s] Invoked command in '/home/fab/ejer2_ws/src/interfaces/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake --build /home/fab/ejer2_ws/src/interfaces/build/interfaces -- -j4 -l4

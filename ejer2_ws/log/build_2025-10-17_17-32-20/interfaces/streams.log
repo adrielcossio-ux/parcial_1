@@ -1,0 +1,62 @@
+[0.024s] Invoking command in '/home/fab/ejer2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake --build /home/fab/ejer2_ws/build/interfaces -- -j4 -l4
+[0.067s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.382s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.386s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.401s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.513s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.938s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.706s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.751s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.752s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.752s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.786s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):
+[1.787s]   target_compile_definitions called with non-compilable target type
+[1.787s] Call Stack (most recent call first):
+[1.788s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.788s] 
+[1.788s] [0m
+[1.788s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):
+[1.788s]   target_include_directories called with non-compilable target type
+[1.789s] Call Stack (most recent call first):
+[1.789s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.789s] 
+[1.789s] [0m
+[1.790s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+[1.790s]   Utility target "interfaces" must not be used as the target of a
+[1.790s]   target_link_libraries call.
+[1.790s] Call Stack (most recent call first):
+[1.790s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.791s] 
+[1.791s] [0m
+[1.791s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):
+[1.791s]   target_include_directories called with non-compilable target type
+[1.791s] Call Stack (most recent call first):
+[1.791s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.792s] 
+[1.792s] [0m
+[1.792s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):
+[1.792s]   Utility target "interfaces" must not be used as the target of a
+[1.792s]   target_link_libraries call.
+[1.793s] Call Stack (most recent call first):
+[1.793s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.793s] 
+[1.793s] [0m
+[1.793s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.857s] -- Configured cppcheck include dirs: 
+[1.858s] -- Configured cppcheck exclude dirs and/or files: 
+[1.865s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.876s] -- Added test 'lint_cmake' to check CMake code style
+[1.882s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.922s] -- Added test 'uncrustify' to check C / C++ code style
+[1.922s] -- Configured uncrustify additional arguments: 
+[1.928s] -- Added test 'xmllint' to check XML markup files
+[1.931s] -- Configuring incomplete, errors occurred!
+[1.931s] See also "/home/fab/ejer2_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[1.946s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.951s] Invoked command in '/home/fab/ejer2_ws/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble /usr/bin/cmake --build /home/fab/ejer2_ws/build/interfaces -- -j4 -l4

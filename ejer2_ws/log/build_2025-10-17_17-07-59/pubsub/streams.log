@@ -1,0 +1,26 @@
+[1.281s] Invoking command in '/home/fab/ejer2_ws/src/pubsub': PYTHONPATH=/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/fab/ejer2_ws/build/pubsub/build install --record /home/fab/ejer2_ws/build/pubsub/install.log --single-version-externally-managed install_data
+[1.688s] running egg_info
+[1.689s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[1.690s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.691s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[1.691s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[1.692s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[1.694s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.695s] adding license file 'LICENSE'
+[1.696s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.696s] running build
+[1.696s] running build_py
+[1.697s] running install
+[1.697s] running install_lib
+[1.699s] running install_data
+[1.700s] running install_egg_info
+[1.703s] removing '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.703s] Copying ../../build/pubsub/pubsub.egg-info to /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[1.705s] running install_scripts
+[1.736s] Installing display script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.736s] Installing filter script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.736s] Installing sensor_1 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.737s] Installing sensor_2 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.737s] Installing sensor_3 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.738s] writing list of installed files to '/home/fab/ejer2_ws/build/pubsub/install.log'
+[1.784s] Invoked command in '/home/fab/ejer2_ws/src/pubsub' returned '0': PYTHONPATH=/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/fab/ejer2_ws/build/pubsub/build install --record /home/fab/ejer2_ws/build/pubsub/install.log --single-version-externally-managed install_data

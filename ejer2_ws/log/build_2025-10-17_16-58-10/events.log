@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000809] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001105] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.001151] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.010013] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.023898] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.024942] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/fab/ejer2_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/install/interfaces'], 'cwd': '/home/fab/ejer2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8383'), ('COLCON_PREFIX_PATH', '/home/fab/ejer2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fab'), ('JOURNAL_STREAM', '8:12422'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', '8708d45c206a471da9bfe6639103339b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fab/ejer2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099417] (-) TimerEvent: {}
+[0.199806] (-) TimerEvent: {}
+[0.300213] (-) TimerEvent: {}
+[0.341878] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400311] (-) TimerEvent: {}
+[0.482428] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500442] (-) TimerEvent: {}
+[0.521824] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600560] (-) TimerEvent: {}
+[0.648323] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.664164] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.664630] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.665497] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.673878] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700680] (-) TimerEvent: {}
+[0.796073] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.800781] (-) TimerEvent: {}
+[0.811560] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.812142] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.813191] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.816808] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900914] (-) TimerEvent: {}
+[1.001342] (-) TimerEvent: {}
+[1.066163] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.098210] (pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub', 'build', '--build-base', '/home/fab/ejer2_ws/build/pubsub/build', 'install', '--record', '/home/fab/ejer2_ws/build/pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fab/ejer2_ws/src/pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fab', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fab', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '940', 'SYSTEMD_EXEC_PID': '1551', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8383', 'COLCON_PREFIX_PATH': '/home/fab/ejer2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'fab', 'JOURNAL_STREAM': '8:12422', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348', 'INVOCATION_ID': '8708d45c206a471da9bfe6639103339b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fab/ejer2_ws/build/pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.101801] (-) TimerEvent: {}
+[1.202187] (-) TimerEvent: {}
+[1.302662] (-) TimerEvent: {}
+[1.347198] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.402774] (-) TimerEvent: {}
+[1.503191] (-) TimerEvent: {}
+[1.513256] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.514701] (pubsub) StdoutLine: {'line': b'writing ../../build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[1.515432] (pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[1.515791] (pubsub) StdoutLine: {'line': b'writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[1.516118] (pubsub) StdoutLine: {'line': b'writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt\n'}
+[1.516306] (pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[1.516982] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.519734] (pubsub) StdoutLine: {'line': b"reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.520466] (pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.521509] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.522440] (pubsub) StdoutLine: {'line': b'running build\n'}
+[1.522684] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.522870] (pubsub) StdoutLine: {'line': b'copying pubsub/filtered.py -> /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub\n'}
+[1.523125] (pubsub) StdoutLine: {'line': b'copying pubsub/display.py -> /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub\n'}
+[1.523521] (pubsub) StdoutLine: {'line': b'running install\n'}
+[1.524253] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.525486] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.526244] (pubsub) StdoutLine: {'line': b'copying /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub/filtered.py -> /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[1.527065] (pubsub) StdoutLine: {'line': b'copying /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub/display.py -> /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[1.528024] (pubsub) StdoutLine: {'line': b'byte-compiling /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub/filtered.py to filtered.cpython-310.pyc\n'}
+[1.529418] (pubsub) StdoutLine: {'line': b'byte-compiling /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub/display.py to display.cpython-310.pyc\n'}
+[1.530526] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.531274] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.534011] (pubsub) StdoutLine: {'line': b"removing '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.534604] (pubsub) StdoutLine: {'line': b'Copying ../../build/pubsub/pubsub.egg-info to /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info\n'}
+[1.536376] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.541789] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.572288] (pubsub) StdoutLine: {'line': b'Installing display script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.572681] (pubsub) StdoutLine: {'line': b'Installing filter script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.573114] (pubsub) StdoutLine: {'line': b'Installing sensor_1 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.573450] (pubsub) StdoutLine: {'line': b'Installing sensor_2 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.573651] (pubsub) StdoutLine: {'line': b'Installing sensor_3 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.574054] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/fab/ejer2_ws/build/pubsub/install.log'\n"}
+[1.579629] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603328] (-) TimerEvent: {}
+[1.607430] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.618093] (pubsub) CommandEnded: {'returncode': 0}
+[1.642240] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[1.703511] (-) TimerEvent: {}
+[1.804204] (-) TimerEvent: {}
+[1.880768] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.904344] (-) TimerEvent: {}
+[2.004906] (-) TimerEvent: {}
+[2.105410] (-) TimerEvent: {}
+[2.205754] (-) TimerEvent: {}
+[2.306255] (-) TimerEvent: {}
+[2.406840] (-) TimerEvent: {}
+[2.501342] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.506994] (-) TimerEvent: {}
+[2.607605] (-) TimerEvent: {}
+[2.708333] (-) TimerEvent: {}
+[2.808812] (-) TimerEvent: {}
+[2.909191] (-) TimerEvent: {}
+[3.009688] (-) TimerEvent: {}
+[3.110438] (-) TimerEvent: {}
+[3.114512] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.210556] (-) TimerEvent: {}
+[3.310960] (-) TimerEvent: {}
+[3.358211] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.411081] (-) TimerEvent: {}
+[3.414371] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.447203] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.511274] (-) TimerEvent: {}
+[3.612039] (-) TimerEvent: {}
+[3.619988] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.620334] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.620499] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.620632] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.659252] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.712098] (-) TimerEvent: {}
+[3.812587] (-) TimerEvent: {}
+[3.822689] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.912779] (-) TimerEvent: {}
+[4.013736] (-) TimerEvent: {}
+[4.114540] (-) TimerEvent: {}
+[4.167229] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.214709] (-) TimerEvent: {}
+[4.218782] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.255339] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.314831] (-) TimerEvent: {}
+[4.335505] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.354980] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fab/ejer2_ws/build/interfaces\n'}
+[4.369363] (interfaces) CommandEnded: {'returncode': 0}
+[4.370492] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[4.372690] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fab/ejer2_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/fab/ejer2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8383'), ('COLCON_PREFIX_PATH', '/home/fab/ejer2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fab'), ('JOURNAL_STREAM', '8:12422'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', '8708d45c206a471da9bfe6639103339b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fab/ejer2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble')]), 'shell': False}
+[4.414965] (-) TimerEvent: {}
+[4.430576] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.443638] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.461294] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interfaces\n'}
+[4.515203] (-) TimerEvent: {}
+[4.615613] (-) TimerEvent: {}
+[4.716415] (-) TimerEvent: {}
+[4.816750] (-) TimerEvent: {}
+[4.917081] (-) TimerEvent: {}
+[5.017785] (-) TimerEvent: {}
+[5.034545] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.036056] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[5.037271] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[5.037726] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[5.039345] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[5.040194] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.043045] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.046060] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.104213] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[5.118338] (-) TimerEvent: {}
+[5.120297] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[5.124871] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.127216] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.145927] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.218518] (-) TimerEvent: {}
+[5.306161] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c.o\x1b[0m\n'}
+[5.318633] (-) TimerEvent: {}
+[5.421434] (-) TimerEvent: {}
+[5.521895] (-) TimerEvent: {}
+[5.622278] (-) TimerEvent: {}
+[5.622703] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.h:19\x1b[m\x1b[K,\n'}
+[5.622988] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c:4\x1b[m\x1b[K:\n'}
+[5.623179] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbuiltin_interfaces/msg/detail/time__struct.h: No such file or directory\n'}
+[5.623380] (interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"builtin_interfaces/msg/detail/time__struct.h"\x1b[m\x1b[K\n'}
+[5.623577] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.623785] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[5.624824] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c.o] Error 1\n'}
+[5.625082] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[5.625261] (interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.722481] (-) TimerEvent: {}
+[5.723117] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[5.782819] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[5.822636] (-) TimerEvent: {}
+[5.867741] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[5.922796] (-) TimerEvent: {}
+[6.023333] (-) TimerEvent: {}
+[6.123838] (-) TimerEvent: {}
+[6.224236] (-) TimerEvent: {}
+[6.324663] (-) TimerEvent: {}
+[6.425220] (-) TimerEvent: {}
+[6.528938] (-) TimerEvent: {}
+[6.629485] (-) TimerEvent: {}
+[6.730131] (-) TimerEvent: {}
+[6.831339] (-) TimerEvent: {}
+[6.932191] (-) TimerEvent: {}
+[7.032831] (-) TimerEvent: {}
+[7.051036] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[7.051375] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[7.051585] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory\n'}
+[7.051757] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"builtin_interfaces/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[7.051934] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.052097] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[7.052258] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory\n'}
+[7.052439] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"builtin_interfaces/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[7.052608] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.052804] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.052967] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.053302] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o] Error 1\n'}
+[7.053728] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp.o] Error 1\n'}
+[7.054399] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[7.054847] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[7.133026] (-) TimerEvent: {}
+[7.228464] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[7.228787] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fab/ejer2_ws/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/filtered_sensor__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory\n'}
+[7.228967] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"builtin_interfaces/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[7.229221] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.229693] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.231891] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp.o] Error 1\n'}
+[7.232205] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[7.232474] (interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.233077] (-) TimerEvent: {}
+[7.235832] (interfaces) CommandEnded: {'returncode': 2}
+[7.245348] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 2}
+[7.256333] (-) EventReactorShutdown: {}

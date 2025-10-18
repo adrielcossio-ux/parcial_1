@@ -1,0 +1,29 @@
+[0.947s] Invoking command in '/home/fab/ejer2_ws/src/Pubsub': PYTHONPATH=/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/fab/ejer2_ws/build/pubsub/build install --record /home/fab/ejer2_ws/build/pubsub/install.log --single-version-externally-managed install_data
+[1.339s] running egg_info
+[1.341s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[1.341s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.342s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[1.342s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[1.342s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[1.345s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.345s] adding license file 'LICENSE'
+[1.346s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.346s] running build
+[1.347s] running build_py
+[1.347s] copying pubsub/display.py -> /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub
+[1.348s] running install
+[1.349s] running install_lib
+[1.352s] copying /home/fab/ejer2_ws/build/pubsub/build/lib/pubsub/display.py -> /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[1.354s] byte-compiling /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub/display.py to display.cpython-310.pyc
+[1.355s] running install_data
+[1.355s] running install_egg_info
+[1.358s] removing '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.358s] Copying ../../build/pubsub/pubsub.egg-info to /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[1.360s] running install_scripts
+[1.388s] Installing display script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.389s] Installing filter script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.389s] Installing sensor_1 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.389s] Installing sensor_2 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.389s] Installing sensor_3 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub
+[1.390s] writing list of installed files to '/home/fab/ejer2_ws/build/pubsub/install.log'
+[1.430s] Invoked command in '/home/fab/ejer2_ws/src/Pubsub' returned '0': PYTHONPATH=/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/fab/ejer2_ws/build/pubsub/build install --record /home/fab/ejer2_ws/build/pubsub/install.log --single-version-externally-managed install_data

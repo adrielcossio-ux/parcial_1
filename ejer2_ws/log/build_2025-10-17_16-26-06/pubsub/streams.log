@@ -1,0 +1,3 @@
+[0.014s] Invoking command in '/home/fab/ejer2_ws/build/pubsub': /usr/bin/cmake /home/fab/ejer2_ws/src/Pubsub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/install/pubsub
+[0.029s] [0mCMake Error: The source "/home/fab/ejer2_ws/src/Pubsub/CMakeLists.txt" does not match the source "/home/fab/ejer2_ws/src/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.032s] Invoked command in '/home/fab/ejer2_ws/build/pubsub' returned '1': /usr/bin/cmake /home/fab/ejer2_ws/src/Pubsub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/install/pubsub

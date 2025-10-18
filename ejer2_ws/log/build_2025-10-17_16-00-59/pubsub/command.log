@@ -1,0 +1,2 @@
+Invoking command in '/home/fab/ejer2_ws/build/pubsub': /usr/bin/cmake /home/fab/ejer2_ws/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/install/pubsub
+Invoked command in '/home/fab/ejer2_ws/build/pubsub' returned '1': /usr/bin/cmake /home/fab/ejer2_ws/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/fab/ejer2_ws/install/pubsub

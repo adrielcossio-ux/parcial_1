@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.001050] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001339] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.001543] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.010672] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.025534] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.026504] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.027702] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fab/ejer2_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/fab/ejer2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8383'), ('COLCON_PREFIX_PATH', '/home/fab/ejer2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fab'), ('JOURNAL_STREAM', '8:12422'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', '8708d45c206a471da9bfe6639103339b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fab/ejer2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble')]), 'shell': False}
+[0.074221] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099454] (-) TimerEvent: {}
+[0.199855] (-) TimerEvent: {}
+[0.283889] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.300356] (-) TimerEvent: {}
+[0.329955] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.334276] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.344053] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.361812] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.382132] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400493] (-) TimerEvent: {}
+[0.439540] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.501464] (-) TimerEvent: {}
+[0.602134] (-) TimerEvent: {}
+[0.702551] (-) TimerEvent: {}
+[0.802967] (-) TimerEvent: {}
+[0.836693] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.903088] (-) TimerEvent: {}
+[1.003576] (-) TimerEvent: {}
+[1.086547] (pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub', 'build', '--build-base', '/home/fab/ejer2_ws/build/pubsub/build', 'install', '--record', '/home/fab/ejer2_ws/build/pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fab/ejer2_ws/src/pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fab', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fab', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '940', 'SYSTEMD_EXEC_PID': '1551', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8383', 'COLCON_PREFIX_PATH': '/home/fab/ejer2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'fab', 'JOURNAL_STREAM': '8:12422', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348', 'INVOCATION_ID': '8708d45c206a471da9bfe6639103339b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fab/ejer2_ws/build/pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fab/ejer2_ws/build/pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.104466] (-) TimerEvent: {}
+[1.205260] (-) TimerEvent: {}
+[1.305717] (-) TimerEvent: {}
+[1.312158] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.405826] (-) TimerEvent: {}
+[1.494262] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.506003] (-) TimerEvent: {}
+[1.512739] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.514309] (pubsub) StdoutLine: {'line': b'writing ../../build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[1.514692] (pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[1.515084] (pubsub) StdoutLine: {'line': b'writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[1.515445] (pubsub) StdoutLine: {'line': b'writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt\n'}
+[1.515727] (pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[1.519773] (pubsub) StdoutLine: {'line': b"reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.520837] (pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.522370] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.524903] (pubsub) StdoutLine: {'line': b'running build\n'}
+[1.526255] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.526548] (pubsub) StdoutLine: {'line': b'running install\n'}
+[1.526756] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.528200] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.528541] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.530827] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.532143] (pubsub) StdoutLine: {'line': b"removing '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.533771] (pubsub) StdoutLine: {'line': b'Copying ../../build/pubsub/pubsub.egg-info to /home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info\n'}
+[1.535156] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.572830] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.573168] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.573374] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.573639] (pubsub) StdoutLine: {'line': b'Installing display script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.574021] (pubsub) StdoutLine: {'line': b'Installing filter script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.574316] (pubsub) StdoutLine: {'line': b'Installing sensor_1 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.574680] (pubsub) StdoutLine: {'line': b'Installing sensor_2 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.574876] (pubsub) StdoutLine: {'line': b'Installing sensor_3 script to /home/fab/ejer2_ws/install/pubsub/lib/pubsub\n'}
+[1.575252] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/fab/ejer2_ws/build/pubsub/install.log'\n"}
+[1.591188] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.606172] (-) TimerEvent: {}
+[1.622379] (pubsub) CommandEnded: {'returncode': 0}
+[1.643600] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[1.653797] (interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.654658] (interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.654861] (interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.661167] (interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.673172] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.679147] (interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.706308] (-) TimerEvent: {}
+[1.727104] (interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.727634] (interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.734281] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.737017] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.782160] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.801960] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fab/ejer2_ws/build/interfaces\n'}
+[1.807482] (-) TimerEvent: {}
+[1.843488] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.861728] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.881018] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.907598] (-) TimerEvent: {}
+[2.009997] (-) TimerEvent: {}
+[2.110406] (-) TimerEvent: {}
+[2.210790] (-) TimerEvent: {}
+[2.311191] (-) TimerEvent: {}
+[2.388327] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[2.411100] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.411447] (-) TimerEvent: {}
+[2.412016] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.511998] (-) TimerEvent: {}
+[2.558857] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.560690] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[2.561145] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[2.562998] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[2.568016] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.568994] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.572075] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/filtered_sensor__functions.c.o\x1b[0m\n'}
+[2.612138] (-) TimerEvent: {}
+[2.639778] (interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[2.660026] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.673573] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.712256] (-) TimerEvent: {}
+[2.756949] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_generator_c\n'}
+[2.780198] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.812370] (-) TimerEvent: {}
+[2.912984] (-) TimerEvent: {}
+[3.015935] (-) TimerEvent: {}
+[3.116581] (-) TimerEvent: {}
+[3.151116] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.216703] (-) TimerEvent: {}
+[3.250009] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.316933] (-) TimerEvent: {}
+[3.402520] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[3.417044] (-) TimerEvent: {}
+[3.518148] (-) TimerEvent: {}
+[3.570086] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/filtered_sensor__type_support_c.cpp.o\x1b[0m\n'}
+[3.620019] (-) TimerEvent: {}
+[3.720895] (-) TimerEvent: {}
+[3.821609] (-) TimerEvent: {}
+[3.899101] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.921745] (-) TimerEvent: {}
+[3.990715] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[4.011711] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.021872] (-) TimerEvent: {}
+[4.125720] (-) TimerEvent: {}
+[4.226433] (-) TimerEvent: {}
+[4.330006] (-) TimerEvent: {}
+[4.430441] (-) TimerEvent: {}
+[4.531336] (-) TimerEvent: {}
+[4.631762] (-) TimerEvent: {}
+[4.732257] (-) TimerEvent: {}
+[4.832818] (-) TimerEvent: {}
+[4.933450] (-) TimerEvent: {}
+[5.034134] (-) TimerEvent: {}
+[5.134842] (-) TimerEvent: {}
+[5.237260] (-) TimerEvent: {}
+[5.337759] (-) TimerEvent: {}
+[5.438275] (-) TimerEvent: {}
+[5.538743] (-) TimerEvent: {}
+[5.640027] (-) TimerEvent: {}
+[5.656454] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.656858] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.658816] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.705755] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/filtered_sensor__type_support.c.o\x1b[0m\n'}
+[5.743074] (-) TimerEvent: {}
+[5.757279] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.782160] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.789819] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.843188] (-) TimerEvent: {}
+[5.874227] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[5.898644] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.902425] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.943319] (-) TimerEvent: {}
+[6.043702] (-) TimerEvent: {}
+[6.144173] (-) TimerEvent: {}
+[6.188775] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/filtered_sensor__type_support.cpp.o\x1b[0m\n'}
+[6.244312] (-) TimerEvent: {}
+[6.251333] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.313871] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[6.340265] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[6.344445] (-) TimerEvent: {}
+[6.368008] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.444554] (-) TimerEvent: {}
+[6.544964] (-) TimerEvent: {}
+[6.645367] (-) TimerEvent: {}
+[6.745771] (-) TimerEvent: {}
+[6.846190] (-) TimerEvent: {}
+[6.853752] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[6.882569] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_filtered_sensor_s.c.o\x1b[0m\n'}
+[6.946309] (-) TimerEvent: {}
+[7.031851] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.046451] (-) TimerEvent: {}
+[7.096093] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[7.132422] (interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.135702] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.137268] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.146596] (-) TimerEvent: {}
+[7.247357] (-) TimerEvent: {}
+[7.291687] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.347545] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.349023] (-) TimerEvent: {}
+[7.353458] (interfaces) StdoutLine: {'line': b'[ 96%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[7.363841] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.402540] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.418180] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.434119] (interfaces) CommandEnded: {'returncode': 0}
+[7.435230] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[7.448685] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fab/ejer2_ws/build/interfaces'], 'cwd': '/home/fab/ejer2_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fab'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '940'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8383'), ('COLCON_PREFIX_PATH', '/home/fab/ejer2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fab'), ('JOURNAL_STREAM', '8:12422'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fab:@/tmp/.ICE-unix/1348,unix/fab:/tmp/.ICE-unix/1348'), ('INVOCATION_ID', '8708d45c206a471da9bfe6639103339b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:56c476e9-bc99-4109-9c28-335bad0771df'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fab/ejer2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fab/ejer2_ws/install/pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fab/ejer2_ws/install/pubsub:/opt/ros/humble')]), 'shell': False}
+[7.450169] (-) TimerEvent: {}
+[7.459329] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.459698] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[7.459967] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.460426] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.460614] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.460976] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.461188] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__functions.h\n'}
+[7.461433] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__struct.h\n'}
+[7.461695] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__functions.c\n'}
+[7.461865] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__type_support.h\n'}
+[7.462142] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/filtered_sensor.h\n'}
+[7.462321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[7.462495] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[7.462719] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[7.462948] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[7.463251] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.463421] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.463625] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.463796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[7.464021] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.464232] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.464403] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.464624] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.464906] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.465166] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.465367] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.465561] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__builder.hpp\n'}
+[7.465756] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__struct.hpp\n'}
+[7.466113] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__traits.hpp\n'}
+[7.466369] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__type_support.hpp\n'}
+[7.466560] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/filtered_sensor.hpp\n'}
+[7.466788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.467007] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.467214] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.467438] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.467748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[7.467952] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.468215] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.468403] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.468631] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.468826] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.469049] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.469243] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__type_support.c\n'}
+[7.469500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_introspection_c.h\n'}
+[7.469690] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.469886] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.470104] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.470302] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[7.470624] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.470849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.471107] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.471335] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.471524] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__type_support.cpp\n'}
+[7.471720] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/filtered_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.471926] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.472164] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.472390] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[7.472839] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.473093] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[7.473331] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[7.473560] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[7.473787] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.474030] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.474246] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.474449] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.474656] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[7.474831] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.475108] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.475343] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.475511] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[7.475738] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[7.475954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_filtered_sensor_s.c\n'}
+[7.476202] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_filtered_sensor.py\n'}
+[7.476404] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[7.476571] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[7.476739] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.476903] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.477102] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.530358] (interfaces) StdoutLine: {'line': b"Listing '/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[7.530739] (interfaces) StdoutLine: {'line': b"Compiling '/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[7.530958] (interfaces) StdoutLine: {'line': b"Listing '/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[7.531157] (interfaces) StdoutLine: {'line': b"Compiling '/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[7.531335] (interfaces) StdoutLine: {'line': b"Compiling '/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_filtered_sensor.py'...\n"}
+[7.538253] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.538821] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.539333] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.540048] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.540486] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.541234] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.541470] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[7.542270] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fab/ejer2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[7.542490] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/msg/FilteredSensor.idl\n'}
+[7.542776] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/msg/FilteredSensor.msg\n'}
+[7.543275] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.543694] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.544071] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.544350] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.544721] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[7.544998] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[7.545259] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[7.545546] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[7.545855] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[7.546206] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[7.546453] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[7.546851] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[7.547243] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.547532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.547866] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.548216] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.548530] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.548876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.549241] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.549552] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.549867] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.550211] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.550395] (-) TimerEvent: {}
+[7.550624] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.550864] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.551187] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.551428] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.551661] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.552000] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.552312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.552616] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.552911] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.553241] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.553547] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.553806] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.554222] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.554448] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.554621] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.554818] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.555085] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fab/ejer2_ws/install/interfaces/share/interfaces/package.xml\n'}
+[7.559270] (interfaces) CommandEnded: {'returncode': 0}
+[7.600449] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.602174] (-) EventReactorShutdown: {}

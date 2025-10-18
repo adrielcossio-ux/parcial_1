@@ -1,0 +1,7 @@
+[console_scripts]
+display = pubsub.display:main
+filter = pubsub.filtered:main
+sensor_1 = pubsub.sensor_1:main
+sensor_2 = pubsub.sensor_2:main
+sensor_3 = pubsub.sensor_3:main
+

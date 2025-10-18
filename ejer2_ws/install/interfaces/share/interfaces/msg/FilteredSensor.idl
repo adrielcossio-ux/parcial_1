@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/FilteredSensor.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module interfaces {
+  module msg {
+    struct FilteredSensor {
+      double average;
+
+      double sensor1;
+
+      double sensor2;
+
+      double sensor3;
+
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};
